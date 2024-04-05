@@ -6,7 +6,6 @@ protocol Networking {
 
 /// Basic network layer that takes care about sending request and processing response.
 final class Network: Networking {
-
     private let session: URLSession
 
     init(session: URLSession = .init(configuration: .default)) {
@@ -15,7 +14,8 @@ final class Network: Networking {
 
     func send<T: Decodable>(request: URLRequest) async -> Result<T, NetworkError> {
         guard let (data, response) = try? await session.data(for: request),
-              let httpResponse = response as? HTTPURLResponse else {
+              let httpResponse = response as? HTTPURLResponse
+        else {
             return .failure(.unknown)
         }
 

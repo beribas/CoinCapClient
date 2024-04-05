@@ -1,16 +1,15 @@
-import XCTest
 @testable import Core
+import XCTest
 
 final class URLRequestExtensionsTests: XCTestCase {
-
     func test_GIVEN_requestDefinition_WHEN_init_THEN_createsExpectedURLRequest() throws {
         // GIVEN
         let requestDefinition = RequestDefinition(
             method: .get,
             baseURL: "https://example.com",
             path: "/path/to/resource",
-            headers: ["X-EXAMPLE" : "HeaderValue"],
-            queryParameters: ["q1" : "q1Value"]
+            headers: ["X-EXAMPLE": "HeaderValue"],
+            queryParameters: ["q1": "q1Value"]
         )
 
         let expectedURL = try XCTUnwrap(URL(string: "https://example.com/path/to/resource?q1=q1Value"))

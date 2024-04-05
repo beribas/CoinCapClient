@@ -17,14 +17,14 @@ extension URLRequest {
                 urlComponents.queryItems = queryParameters.map { .init(name: $0.key, value: $0.value) }
             }
         }
-  
+
         guard let url = urlComponents.url else {
             fatalError("Error building URL from url components!")
         }
         self.init(url: url)
         httpMethod = requestDefinition.method.rawValue
-        requestDefinition.headers.forEach {
-            addValue($0.value, forHTTPHeaderField: $0.key)
+        for header in requestDefinition.headers {
+            addValue(header.value, forHTTPHeaderField: header.key)
         }
     }
 }

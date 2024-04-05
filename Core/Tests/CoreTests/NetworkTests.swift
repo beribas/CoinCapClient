@@ -1,8 +1,7 @@
-import XCTest
 @testable import Core
+import XCTest
 
 final class NetworkTests: XCTestCase {
-
     struct DecodableResult: Decodable, Equatable {
         let id: Int
     }
@@ -89,5 +88,4 @@ final class NetworkTests: XCTestCase {
         // THEN
         XCTAssertEqual(result, .success(.init(id: 42)))
     }
-
 }

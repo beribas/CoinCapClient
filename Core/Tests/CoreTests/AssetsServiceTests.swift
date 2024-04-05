@@ -1,8 +1,7 @@
-import XCTest
 @testable import Core
+import XCTest
 
 final class AssetsServiceTests: XCTestCase {
-
     class NetworkMock: Networking {
         var receivedRequests: [URLRequest] = []
         var stubbedResult: Decodable?
@@ -11,8 +10,7 @@ final class AssetsServiceTests: XCTestCase {
             receivedRequests.append(request)
             if let stubbedError {
                 return .failure(stubbedError)
-            }
-            else if let result = stubbedResult as? T {
+            } else if let result = stubbedResult as? T {
                 return .success(result)
             } else {
                 print("No stub provided, returning error...")

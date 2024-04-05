@@ -1,5 +1,5 @@
-import SwiftUI
 import Core
+import SwiftUI
 
 struct CoinCardView: View {
     let asset: Asset

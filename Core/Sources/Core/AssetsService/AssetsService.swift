@@ -21,9 +21,9 @@ public struct AssetsService: AssetsServiceType {
         let result: Result<AssetsResponse, NetworkError> = await network.send(request: URLRequest(requestDefinition: .assets))
 
         switch result {
-        case .success(let response):
+        case let .success(response):
             return .success(response.data)
-        case .failure(let error):
+        case let .failure(error):
             return .failure(error)
         }
     }
@@ -32,9 +32,9 @@ public struct AssetsService: AssetsServiceType {
         let result: Result<AssetResponse, NetworkError> = await network.send(request: URLRequest(requestDefinition: .asset(id: id)))
 
         switch result {
-        case .success(let response):
+        case let .success(response):
             return .success(response.data)
-        case .failure(let error):
+        case let .failure(error):
             return .failure(error)
         }
     }

@@ -14,8 +14,8 @@ struct RequestDefinition {
 }
 
 extension RequestDefinition {
-    static var defaultHeaders: [String : String] {
-        ["Accept-Encoding" : "gzip"]
+    static var defaultHeaders: [String: String] {
+        ["Accept-Encoding": "gzip"]
     }
 }
 
@@ -25,8 +25,8 @@ extension RequestDefinition {
             method: .get,
             baseURL: "https://api.coincap.io",
             path: "/v2/assets",
-            headers: Self.defaultHeaders,
-            queryParameters: ["limit" : "100"]
+            headers: defaultHeaders,
+            queryParameters: ["limit": "100"]
         )
     }
 
@@ -35,7 +35,7 @@ extension RequestDefinition {
             method: .get,
             baseURL: "https://api.coincap.io",
             path: "/v2/assets/\(id)",
-            headers: Self.defaultHeaders,
+            headers: defaultHeaders,
             queryParameters: nil
         )
     }

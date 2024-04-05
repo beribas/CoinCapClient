@@ -35,19 +35,19 @@ public struct Asset: Decodable, Equatable, Identifiable, Hashable {
 
 public extension String {
     static func random() -> String {
-        return (0..<10).reduce(
+        return (0 ..< 10).reduce(
             into: "", { string, _ in
-                return string.append(Character.random())
+                string.append(Character.random())
             }
         )
     }
 
     static func randomPositiveNumber() -> String {
-        String(Double.random(in: 0...1_000_000))
+        String(Double.random(in: 0 ... 1_000_000))
     }
 
     static func randomPercentage() -> String {
-        String(Double.random(in: -100...100))
+        String(Double.random(in: -100 ... 100))
     }
 }
 
