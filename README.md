@@ -8,7 +8,7 @@ The project contains
 * **Core** package which holds the model data and a thin network layer.
 * **CoinCapClient** containing the SwiftUI App.
 
-This kind of separation can help to showcase different approaches for UI architectures like [TCA](https://github.com/pointfreeco/swift-composable-architecture/tree/main) or [Observation](https://developer.apple.com/documentation/observation) by adding new targets.
+This kind of separation can help to showcase different approaches for UI architectures like [TCA](https://github.com/pointfreeco/swift-composable-architecture/tree/main) or [Observation](https://developer.apple.com/documentation/observation) based approach by adding new targets.
 
 ## How to build and run
 

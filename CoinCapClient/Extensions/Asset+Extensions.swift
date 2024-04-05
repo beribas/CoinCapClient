@@ -34,7 +34,7 @@ extension Asset {
 private extension String {
     func asFormattedDecimal() -> String {
         guard let decimal = Decimal(string: self) else {
-            // In production, we would probably want to either filter out such values during parsing or provide a meaningful user feedback
+            // In production, we would probably want to either filter out such values during JSON parsing or provide a meaningful user feedback
             return "🤷‍♂️"
         }
 
