@@ -52,7 +52,7 @@ struct CoinsOverviewView: View {
     let fakeAssets = (0 ... 20)
         .map(String.init)
         .map { Asset.fake(id: $0) }
-    var serviceMock = AssetsServiceMock()
+    let serviceMock = AssetsServiceMock()
     serviceMock.assetsResult = .success(fakeAssets)
     return CoinsOverviewView()
         .environmentObject(CoinsViewModel(assetsService: serviceMock))
