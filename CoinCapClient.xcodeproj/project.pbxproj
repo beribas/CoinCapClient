@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		991C23772BC000BE00991B8B /* CoinsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C23762BC000BE00991B8B /* CoinsViewModelTests.swift */; };
 		991C23792BC013C000991B8B /* AssetExteensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C23782BC013C000991B8B /* AssetExteensionsTests.swift */; };
+		9942C90C2BC0610D00B8392D /* CoinCapObservableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942C90B2BC0610D00B8392D /* CoinCapObservableApp.swift */; };
+		9942C9102BC0610E00B8392D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9942C90F2BC0610E00B8392D /* Assets.xcassets */; };
+		9942C9132BC0610E00B8392D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9942C9122BC0610E00B8392D /* Preview Assets.xcassets */; };
+		9942C91D2BC0610E00B8392D /* CoinCapObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942C91C2BC0610E00B8392D /* CoinCapObservableTests.swift */; };
+		9942C9272BC0610E00B8392D /* CoinCapObservableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942C9262BC0610E00B8392D /* CoinCapObservableUITests.swift */; };
+		9942C9292BC0610E00B8392D /* CoinCapObservableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942C9282BC0610E00B8392D /* CoinCapObservableUITestsLaunchTests.swift */; };
+		9942C9342BC061AC00B8392D /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06752BBDBB3F005BC966 /* CoinsViewModel.swift */; };
+		9942C9362BC061BD00B8392D /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942C9352BC061BD00B8392D /* CoinsViewModel.swift */; };
 		997B064A2BBD96CD005BC966 /* CoinCapClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06492BBD96CD005BC966 /* CoinCapClientApp.swift */; };
 		997B064C2BBD96CD005BC966 /* CoinsOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B064B2BBD96CD005BC966 /* CoinsOverviewView.swift */; };
 		997B064E2BBD96CE005BC966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997B064D2BBD96CE005BC966 /* Assets.xcassets */; };
 		997B06512BBD96CE005BC966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997B06502BBD96CE005BC966 /* Preview Assets.xcassets */; };
-		997B06762BBDBB3F005BC966 /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06752BBDBB3F005BC966 /* CoinsViewModel.swift */; };
 		997B06792BBDBCFA005BC966 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 997B06782BBDBCFA005BC966 /* Core */; };
 		997B067C2BBDC279005BC966 /* CoinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B067B2BBDC279005BC966 /* CoinCardView.swift */; };
 		997B06822BBDE902005BC966 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 997B06802BBDE87F005BC966 /* Poppins-Bold.ttf */; };
@@ -21,13 +28,40 @@
 		997B06872BBDEC1E005BC966 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06862BBDEC1E005BC966 /* Color+Extensions.swift */; };
 		997B06892BBDEE36005BC966 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06882BBDEE36005BC966 /* Color+Hex.swift */; };
 		997B068C2BBDFEE1005BC966 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B068B2BBDFEE1005BC966 /* GradientBackground.swift */; };
-		997B068F2BBE00F8005BC966 /* CoinsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B068E2BBE00F8005BC966 /* CoinsDetailsView.swift */; };
 		997B06932BBE05E7005BC966 /* AsyncCoinIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06922BBE05E7005BC966 /* AsyncCoinIcon.swift */; };
 		997B06982BBE0EFE005BC966 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06972BBE0EFE005BC966 /* Font+Extensions.swift */; };
 		997B069B2BBEBAD3005BC966 /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B069A2BBEBAD2005BC966 /* Asset+Extensions.swift */; };
+		99C27E842BC062220026CCF8 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 99C27E832BC062220026CCF8 /* Core */; };
+		99C27E862BC062E20026CCF8 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06862BBDEC1E005BC966 /* Color+Extensions.swift */; };
+		99C27E872BC062E20026CCF8 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06882BBDEE36005BC966 /* Color+Hex.swift */; };
+		99C27E882BC062EA0026CCF8 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06972BBE0EFE005BC966 /* Font+Extensions.swift */; };
+		99C27E892BC062EA0026CCF8 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 997B06802BBDE87F005BC966 /* Poppins-Bold.ttf */; };
+		99C27E8A2BC062EA0026CCF8 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 997B06832BBDE9C2005BC966 /* Poppins-Regular.ttf */; };
+		99C27E8B2BC062EE0026CCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997B064D2BBD96CE005BC966 /* Assets.xcassets */; };
+		99C27E8C2BC063040026CCF8 /* Asset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B069A2BBEBAD2005BC966 /* Asset+Extensions.swift */; };
+		99C27E8E2BC063290026CCF8 /* AsyncCoinIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B06922BBE05E7005BC966 /* AsyncCoinIcon.swift */; };
+		99C27E8F2BC0636D0026CCF8 /* CoinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B067B2BBDC279005BC966 /* CoinCardView.swift */; };
+		99C27E912BC063990026CCF8 /* CoinsOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C27E902BC063990026CCF8 /* CoinsOverviewView.swift */; };
+		99C27E922BC064E70026CCF8 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B068B2BBDFEE1005BC966 /* GradientBackground.swift */; };
+		99C27E952BC0681F0026CCF8 /* CoinsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B068E2BBE00F8005BC966 /* CoinsDetailsView.swift */; };
+		99C27E972BC068300026CCF8 /* CoinsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C27E962BC068300026CCF8 /* CoinsDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9942C9192BC0610E00B8392D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 997B063E2BBD96CD005BC966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9942C9082BC0610D00B8392D;
+			remoteInfo = CoinCapObservable;
+		};
+		9942C9232BC0610E00B8392D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 997B063E2BBD96CD005BC966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9942C9082BC0610D00B8392D;
+			remoteInfo = CoinCapObservable;
+		};
 		997B06572BBD96CF005BC966 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 997B063E2BBD96CD005BC966 /* Project object */;
@@ -41,6 +75,16 @@
 		991C23752BBFF4D000991B8B /* CoinCapClient.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoinCapClient.xctestplan; sourceTree = "<group>"; };
 		991C23762BC000BE00991B8B /* CoinsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModelTests.swift; sourceTree = "<group>"; };
 		991C23782BC013C000991B8B /* AssetExteensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetExteensionsTests.swift; sourceTree = "<group>"; };
+		9942C9092BC0610D00B8392D /* CoinCapObservable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinCapObservable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9942C90B2BC0610D00B8392D /* CoinCapObservableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapObservableApp.swift; sourceTree = "<group>"; };
+		9942C90F2BC0610E00B8392D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9942C9122BC0610E00B8392D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9942C9182BC0610E00B8392D /* CoinCapObservableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinCapObservableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9942C91C2BC0610E00B8392D /* CoinCapObservableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapObservableTests.swift; sourceTree = "<group>"; };
+		9942C9222BC0610E00B8392D /* CoinCapObservableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinCapObservableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9942C9262BC0610E00B8392D /* CoinCapObservableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapObservableUITests.swift; sourceTree = "<group>"; };
+		9942C9282BC0610E00B8392D /* CoinCapObservableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapObservableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9942C9352BC061BD00B8392D /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
 		997B06462BBD96CD005BC966 /* CoinCapClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinCapClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997B06492BBD96CD005BC966 /* CoinCapClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapClientApp.swift; sourceTree = "<group>"; };
 		997B064B2BBD96CD005BC966 /* CoinsOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsOverviewView.swift; sourceTree = "<group>"; };
@@ -59,10 +103,35 @@
 		997B06922BBE05E7005BC966 /* AsyncCoinIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCoinIcon.swift; sourceTree = "<group>"; };
 		997B06972BBE0EFE005BC966 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
 		997B069A2BBEBAD2005BC966 /* Asset+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
+		99C27E902BC063990026CCF8 /* CoinsOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsOverviewView.swift; sourceTree = "<group>"; };
+		99C27E932BC065310026CCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		99C27E962BC068300026CCF8 /* CoinsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsDetailsView.swift; sourceTree = "<group>"; };
 		99EE6DB82BC03C5C000B5B39 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9942C9062BC0610D00B8392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C27E842BC062220026CCF8 /* Core in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9942C9152BC0610E00B8392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9942C91F2BC0610E00B8392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		997B06432BBD96CD005BC966 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,13 +158,56 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		9942C90A2BC0610D00B8392D /* CoinCapObservable */ = {
+			isa = PBXGroup;
+			children = (
+				99C27E932BC065310026CCF8 /* Info.plist */,
+				9942C90B2BC0610D00B8392D /* CoinCapObservableApp.swift */,
+				9942C90F2BC0610E00B8392D /* Assets.xcassets */,
+				9942C9112BC0610E00B8392D /* Preview Content */,
+				9942C9352BC061BD00B8392D /* CoinsViewModel.swift */,
+				99C27E902BC063990026CCF8 /* CoinsOverviewView.swift */,
+				99C27E962BC068300026CCF8 /* CoinsDetailsView.swift */,
+			);
+			path = CoinCapObservable;
+			sourceTree = "<group>";
+		};
+		9942C9112BC0610E00B8392D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9942C9122BC0610E00B8392D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9942C91B2BC0610E00B8392D /* CoinCapObservableTests */ = {
+			isa = PBXGroup;
+			children = (
+				9942C91C2BC0610E00B8392D /* CoinCapObservableTests.swift */,
+			);
+			path = CoinCapObservableTests;
+			sourceTree = "<group>";
+		};
+		9942C9252BC0610E00B8392D /* CoinCapObservableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9942C9262BC0610E00B8392D /* CoinCapObservableUITests.swift */,
+				9942C9282BC0610E00B8392D /* CoinCapObservableUITestsLaunchTests.swift */,
+			);
+			path = CoinCapObservableUITests;
+			sourceTree = "<group>";
+		};
 		997B063D2BBD96CD005BC966 = {
 			isa = PBXGroup;
 			children = (
+				99C27E852BC062BC0026CCF8 /* Shared */,
 				99EE6DB82BC03C5C000B5B39 /* Core */,
 				991C23752BBFF4D000991B8B /* CoinCapClient.xctestplan */,
 				997B06482BBD96CD005BC966 /* CoinCapClient */,
 				997B06592BBD96CF005BC966 /* CoinCapClientTests */,
+				9942C90A2BC0610D00B8392D /* CoinCapObservable */,
+				9942C91B2BC0610E00B8392D /* CoinCapObservableTests */,
+				9942C9252BC0610E00B8392D /* CoinCapObservableUITests */,
 				997B06472BBD96CD005BC966 /* Products */,
 				997B06772BBDBCFA005BC966 /* Frameworks */,
 			);
@@ -106,6 +218,9 @@
 			children = (
 				997B06462BBD96CD005BC966 /* CoinCapClient.app */,
 				997B06562BBD96CF005BC966 /* CoinCapClientTests.xctest */,
+				9942C9092BC0610D00B8392D /* CoinCapObservable.app */,
+				9942C9182BC0610E00B8392D /* CoinCapObservableTests.xctest */,
+				9942C9222BC0610E00B8392D /* CoinCapObservableUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,14 +229,9 @@
 			isa = PBXGroup;
 			children = (
 				991C23722BBFE3B300991B8B /* ViewModels */,
-				997B06992BBEBABF005BC966 /* Extensions */,
 				997B06902BBE059B005BC966 /* Views */,
-				997B068A2BBDFEC6005BC966 /* ViewModifier */,
-				997B06852BBDEC11005BC966 /* Colors */,
 				997B06812BBDE8CE005BC966 /* Info.plist */,
-				997B067F2BBDE79E005BC966 /* Fonts */,
 				997B06492BBD96CD005BC966 /* CoinCapClientApp.swift */,
-				997B064D2BBD96CE005BC966 /* Assets.xcassets */,
 				997B064F2BBD96CE005BC966 /* Preview Content */,
 			);
 			path = CoinCapClient;
@@ -147,7 +257,6 @@
 		997B06742BBDBB20005BC966 /* CoinsOverviewView */ = {
 			isa = PBXGroup;
 			children = (
-				997B067B2BBDC279005BC966 /* CoinCardView.swift */,
 				997B064B2BBD96CD005BC966 /* CoinsOverviewView.swift */,
 			);
 			path = CoinsOverviewView;
@@ -199,18 +308,9 @@
 			isa = PBXGroup;
 			children = (
 				997B068D2BBE00EA005BC966 /* CoinsDetailsView */,
-				997B06912BBE05A6005BC966 /* Shared */,
 				997B06742BBDBB20005BC966 /* CoinsOverviewView */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		997B06912BBE05A6005BC966 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				997B06922BBE05E7005BC966 /* AsyncCoinIcon.swift */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		997B06992BBEBABF005BC966 /* Extensions */ = {
@@ -221,9 +321,89 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		99C27E852BC062BC0026CCF8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				997B068A2BBDFEC6005BC966 /* ViewModifier */,
+				99C27E8D2BC0631F0026CCF8 /* Views */,
+				997B06992BBEBABF005BC966 /* Extensions */,
+				997B06852BBDEC11005BC966 /* Colors */,
+				997B067F2BBDE79E005BC966 /* Fonts */,
+				997B064D2BBD96CE005BC966 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		99C27E8D2BC0631F0026CCF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				997B067B2BBDC279005BC966 /* CoinCardView.swift */,
+				997B06922BBE05E7005BC966 /* AsyncCoinIcon.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9942C9082BC0610D00B8392D /* CoinCapObservable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9942C9302BC0610E00B8392D /* Build configuration list for PBXNativeTarget "CoinCapObservable" */;
+			buildPhases = (
+				9942C9052BC0610D00B8392D /* Sources */,
+				9942C9062BC0610D00B8392D /* Frameworks */,
+				9942C9072BC0610D00B8392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinCapObservable;
+			packageProductDependencies = (
+				99C27E832BC062220026CCF8 /* Core */,
+			);
+			productName = CoinCapObservable;
+			productReference = 9942C9092BC0610D00B8392D /* CoinCapObservable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9942C9172BC0610E00B8392D /* CoinCapObservableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9942C9312BC0610E00B8392D /* Build configuration list for PBXNativeTarget "CoinCapObservableTests" */;
+			buildPhases = (
+				9942C9142BC0610E00B8392D /* Sources */,
+				9942C9152BC0610E00B8392D /* Frameworks */,
+				9942C9162BC0610E00B8392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9942C91A2BC0610E00B8392D /* PBXTargetDependency */,
+			);
+			name = CoinCapObservableTests;
+			packageProductDependencies = (
+			);
+			productName = CoinCapObservableTests;
+			productReference = 9942C9182BC0610E00B8392D /* CoinCapObservableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9942C9212BC0610E00B8392D /* CoinCapObservableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9942C9322BC0610E00B8392D /* Build configuration list for PBXNativeTarget "CoinCapObservableUITests" */;
+			buildPhases = (
+				9942C91E2BC0610E00B8392D /* Sources */,
+				9942C91F2BC0610E00B8392D /* Frameworks */,
+				9942C9202BC0610E00B8392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9942C9242BC0610E00B8392D /* PBXTargetDependency */,
+			);
+			name = CoinCapObservableUITests;
+			productName = CoinCapObservableUITests;
+			productReference = 9942C9222BC0610E00B8392D /* CoinCapObservableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		997B06452BBD96CD005BC966 /* CoinCapClient */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997B066A2BBD96CF005BC966 /* Build configuration list for PBXNativeTarget "CoinCapClient" */;
@@ -272,6 +452,17 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					9942C9082BC0610D00B8392D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9942C9172BC0610E00B8392D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9942C9082BC0610D00B8392D;
+					};
+					9942C9212BC0610E00B8392D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9942C9082BC0610D00B8392D;
+					};
 					997B06452BBD96CD005BC966 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -296,11 +487,40 @@
 			targets = (
 				997B06452BBD96CD005BC966 /* CoinCapClient */,
 				997B06552BBD96CF005BC966 /* CoinCapClientTests */,
+				9942C9082BC0610D00B8392D /* CoinCapObservable */,
+				9942C9172BC0610E00B8392D /* CoinCapObservableTests */,
+				9942C9212BC0610E00B8392D /* CoinCapObservableUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9942C9072BC0610D00B8392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9942C9132BC0610E00B8392D /* Preview Assets.xcassets in Resources */,
+				99C27E892BC062EA0026CCF8 /* Poppins-Bold.ttf in Resources */,
+				99C27E8A2BC062EA0026CCF8 /* Poppins-Regular.ttf in Resources */,
+				9942C9102BC0610E00B8392D /* Assets.xcassets in Resources */,
+				99C27E8B2BC062EE0026CCF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9942C9162BC0610E00B8392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9942C9202BC0610E00B8392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		997B06442BBD96CD005BC966 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +542,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9942C9052BC0610D00B8392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C27E8C2BC063040026CCF8 /* Asset+Extensions.swift in Sources */,
+				99C27E8F2BC0636D0026CCF8 /* CoinCardView.swift in Sources */,
+				99C27E882BC062EA0026CCF8 /* Font+Extensions.swift in Sources */,
+				99C27E862BC062E20026CCF8 /* Color+Extensions.swift in Sources */,
+				99C27E872BC062E20026CCF8 /* Color+Hex.swift in Sources */,
+				99C27E922BC064E70026CCF8 /* GradientBackground.swift in Sources */,
+				99C27E912BC063990026CCF8 /* CoinsOverviewView.swift in Sources */,
+				9942C9362BC061BD00B8392D /* CoinsViewModel.swift in Sources */,
+				99C27E8E2BC063290026CCF8 /* AsyncCoinIcon.swift in Sources */,
+				99C27E972BC068300026CCF8 /* CoinsDetailsView.swift in Sources */,
+				9942C90C2BC0610D00B8392D /* CoinCapObservableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9942C9142BC0610E00B8392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9942C91D2BC0610E00B8392D /* CoinCapObservableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9942C91E2BC0610E00B8392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9942C9272BC0610E00B8392D /* CoinCapObservableUITests.swift in Sources */,
+				9942C9292BC0610E00B8392D /* CoinCapObservableUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		997B06422BBD96CD005BC966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,9 +588,9 @@
 				997B067C2BBDC279005BC966 /* CoinCardView.swift in Sources */,
 				997B069B2BBEBAD3005BC966 /* Asset+Extensions.swift in Sources */,
 				997B06872BBDEC1E005BC966 /* Color+Extensions.swift in Sources */,
-				997B06762BBDBB3F005BC966 /* CoinsViewModel.swift in Sources */,
 				997B064C2BBD96CD005BC966 /* CoinsOverviewView.swift in Sources */,
-				997B068F2BBE00F8005BC966 /* CoinsDetailsView.swift in Sources */,
+				9942C9342BC061AC00B8392D /* CoinsViewModel.swift in Sources */,
+				99C27E952BC0681F0026CCF8 /* CoinsDetailsView.swift in Sources */,
 				997B064A2BBD96CD005BC966 /* CoinCapClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +607,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9942C91A2BC0610E00B8392D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9942C9082BC0610D00B8392D /* CoinCapObservable */;
+			targetProxy = 9942C9192BC0610E00B8392D /* PBXContainerItemProxy */;
+		};
+		9942C9242BC0610E00B8392D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9942C9082BC0610D00B8392D /* CoinCapObservable */;
+			targetProxy = 9942C9232BC0610E00B8392D /* PBXContainerItemProxy */;
+		};
 		997B06582BBD96CF005BC966 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 997B06452BBD96CD005BC966 /* CoinCapClient */;
@@ -360,6 +625,142 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9942C92A2BC0610E00B8392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinCapObservable/Preview Content\"";
+				DEVELOPMENT_TEAM = 42ZWPL85E8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinCapObservable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleglanger.CoinCapObservable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9942C92B2BC0610E00B8392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinCapObservable/Preview Content\"";
+				DEVELOPMENT_TEAM = 42ZWPL85E8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoinCapObservable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleglanger.CoinCapObservable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9942C92C2BC0610E00B8392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42ZWPL85E8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleglanger.CoinCapObservableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinCapObservable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinCapObservable";
+			};
+			name = Debug;
+		};
+		9942C92D2BC0610E00B8392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42ZWPL85E8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleglanger.CoinCapObservableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinCapObservable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinCapObservable";
+			};
+			name = Release;
+		};
+		9942C92E2BC0610E00B8392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42ZWPL85E8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleglanger.CoinCapObservableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinCapObservable;
+			};
+			name = Debug;
+		};
+		9942C92F2BC0610E00B8392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42ZWPL85E8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleglanger.CoinCapObservableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinCapObservable;
+			};
+			name = Release;
+		};
 		997B06682BBD96CF005BC966 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -582,6 +983,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9942C9302BC0610E00B8392D /* Build configuration list for PBXNativeTarget "CoinCapObservable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9942C92A2BC0610E00B8392D /* Debug */,
+				9942C92B2BC0610E00B8392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9942C9312BC0610E00B8392D /* Build configuration list for PBXNativeTarget "CoinCapObservableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9942C92C2BC0610E00B8392D /* Debug */,
+				9942C92D2BC0610E00B8392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9942C9322BC0610E00B8392D /* Build configuration list for PBXNativeTarget "CoinCapObservableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9942C92E2BC0610E00B8392D /* Debug */,
+				9942C92F2BC0610E00B8392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		997B06412BBD96CD005BC966 /* Build configuration list for PBXProject "CoinCapClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -613,6 +1041,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		997B06782BBDBCFA005BC966 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		99C27E832BC062220026CCF8 /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
 		};
