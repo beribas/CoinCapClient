@@ -33,7 +33,7 @@ final class AssetsServiceTests: XCTestCase {
         XCTAssertEqual(network.receivedRequests, [URLRequest(requestDefinition: .assets)])
     }
 
-    func test_GIVEN_networkReturningError_WHEN_assets_returnsError() async {
+    func test_GIVEN_networkReturningError_WHEN_assets_THEN_returnsError() async {
         // GIVEN
         let network = NetworkMock()
         let error = NetworkError.unknown
@@ -75,7 +75,7 @@ final class AssetsServiceTests: XCTestCase {
         XCTAssertEqual(network.receivedRequests, [URLRequest(requestDefinition: .asset(id: "ETH"))])
     }
 
-    func test_GIVEN_networkReturningError_WHEN_assetById_returnsError() async {
+    func test_GIVEN_networkReturningError_WHEN_assetById_THEN_returnsError() async {
         // GIVEN
         let network = NetworkMock()
         let error = NetworkError.unknown
