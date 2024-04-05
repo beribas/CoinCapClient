@@ -42,7 +42,7 @@
     },
     {
       "target" : {
-        "containerPath" : "container:..\/Core",
+        "containerPath" : "container:Core",
         "identifier" : "CoreTests",
         "name" : "CoreTests"
       }
