@@ -1,5 +1,5 @@
-import SwiftUI
 import Core
+import SwiftUI
 
 struct CoinsOverviewView: View {
     @EnvironmentObject var viewModel: CoinsViewModel
@@ -49,11 +49,11 @@ struct CoinsOverviewView: View {
 }
 
 #Preview {
-    let fakeAssets = (0...20)
+    let fakeAssets = (0 ... 20)
         .map(String.init)
         .map { Asset.fake(id: $0) }
     var serviceMock = AssetsServiceMock()
-            serviceMock.assetsResult = .success(fakeAssets)
+    serviceMock.assetsResult = .success(fakeAssets)
     return CoinsOverviewView()
         .environmentObject(CoinsViewModel(assetsService: serviceMock))
 }

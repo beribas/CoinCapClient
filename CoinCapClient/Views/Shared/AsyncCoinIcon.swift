@@ -8,8 +8,8 @@ struct AsyncCoinIcon: View {
             url: url,
             content: { image in
                 image.resizable()
-                     .aspectRatio(contentMode: .fit)
-                     .frame(width: imageSideLength, height: imageSideLength)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: imageSideLength, height: imageSideLength)
             },
             placeholder: {
                 ProgressView()

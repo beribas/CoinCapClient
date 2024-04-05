@@ -1,5 +1,5 @@
-import SwiftUI
 import Core
+import SwiftUI
 
 struct CoinsDetailsView: View {
     @EnvironmentObject var viewModel: CoinsViewModel

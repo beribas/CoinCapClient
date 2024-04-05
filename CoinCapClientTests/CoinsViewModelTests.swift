@@ -1,10 +1,9 @@
-import XCTest
-import Core
 @testable import CoinCapClient
 import Combine
+import Core
+import XCTest
 
 final class CoinsViewModelTests: XCTestCase {
-
     private var cancellables: [AnyCancellable] = []
 
     override func setUp() {

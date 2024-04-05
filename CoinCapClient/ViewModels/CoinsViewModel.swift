@@ -1,10 +1,10 @@
-import SwiftUI
 import Core
+import SwiftUI
 
 @MainActor
 class CoinsViewModel: ObservableObject {
     private let assetsService: AssetsServiceType
-    private var updatingTask: Task<(), Never>?
+    private var updatingTask: Task<Void, Never>?
 
     @Published private(set) var assets: [Asset] = []
     @Published var isLoading = false
@@ -21,7 +21,7 @@ class CoinsViewModel: ObservableObject {
         let assetsResult = await assetsService.assets()
 
         switch assetsResult {
-        case .success(let assets):
+        case let .success(assets):
             self.assets = assets
         case .failure:
             showFetchError = true
@@ -39,7 +39,7 @@ class CoinsViewModel: ObservableObject {
                 return
             }
             switch assetsResult {
-            case .success(let asset):
+            case let .success(asset):
                 if let index = assets.firstIndex(where: { $0.id == asset.id }) {
                     self.assets[index] = asset
                 }

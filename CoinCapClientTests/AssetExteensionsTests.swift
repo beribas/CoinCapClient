@@ -1,9 +1,8 @@
-import XCTest
-import Core
 @testable import CoinCapClient
+import Core
+import XCTest
 
 final class AssetExteensionsTests: XCTestCase {
-
     func test_GIVEN_priceLessThenThousand_WHEN_price_THEN_returnsExpectedPrice() {
         // GIVEN
         let priceUsd = "6.9823147841833210"
