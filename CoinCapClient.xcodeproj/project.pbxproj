@@ -47,7 +47,6 @@
 		997B064D2BBD96CE005BC966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997B06502BBD96CE005BC966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		997B06562BBD96CF005BC966 /* CoinCapClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinCapClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		997B06732BBD9716005BC966 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = ../Core; sourceTree = "<group>"; };
 		997B06752BBDBB3F005BC966 /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
 		997B067B2BBDC279005BC966 /* CoinCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCardView.swift; sourceTree = "<group>"; };
 		997B06802BBDE87F005BC966 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		997B06922BBE05E7005BC966 /* AsyncCoinIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCoinIcon.swift; sourceTree = "<group>"; };
 		997B06972BBE0EFE005BC966 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
 		997B069A2BBEBAD2005BC966 /* Asset+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+Extensions.swift"; sourceTree = "<group>"; };
+		99EE6DB82BC03C5C000B5B39 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 		997B063D2BBD96CD005BC966 = {
 			isa = PBXGroup;
 			children = (
+				99EE6DB82BC03C5C000B5B39 /* Core */,
 				991C23752BBFF4D000991B8B /* CoinCapClient.xctestplan */,
-				997B06732BBD9716005BC966 /* Core */,
 				997B06482BBD96CD005BC966 /* CoinCapClient */,
 				997B06592BBD96CF005BC966 /* CoinCapClientTests */,
 				997B06472BBD96CD005BC966 /* Products */,
