@@ -1,4 +1,5 @@
 import SwiftUI
+import Core
 
 struct CoinCardView: View {
     let asset: Asset
@@ -35,8 +36,6 @@ struct CoinCardView: View {
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
 }
-
-import Core
 
 #Preview {
     VStack {
