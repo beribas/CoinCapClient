@@ -1,0 +1,52 @@
+{
+  "configurations" : [
+    {
+      "id" : "88330680-7818-49E5-A107-8D37CF65E7E6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:CoinCapClient.xcodeproj",
+          "identifier" : "997B06452BBD96CD005BC966",
+          "name" : "CoinCapClient"
+        },
+        {
+          "containerPath" : "container:..\/Core",
+          "identifier" : "Core",
+          "name" : "Core"
+        }
+      ]
+    },
+    "language" : "en",
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CoinCapClient.xcodeproj",
+      "identifier" : "997B06452BBD96CD005BC966",
+      "name" : "CoinCapClient"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CoinCapClient.xcodeproj",
+        "identifier" : "997B06552BBD96CF005BC966",
+        "name" : "CoinCapClientTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core",
+        "identifier" : "CoreTests",
+        "name" : "CoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}
