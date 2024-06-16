@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "Core",
             swiftSettings: [
-              .enableExperimentalFeature("StrictConcurrency")
+                .enableUpcomingFeature("StrictConcurrency")
             ]
         ),
         .testTarget(

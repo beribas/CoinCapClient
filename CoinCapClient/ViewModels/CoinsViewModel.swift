@@ -3,7 +3,7 @@ import SwiftUI
 
 @MainActor
 class CoinsViewModel: ObservableObject {
-    private let assetsService: AssetsServiceType
+    private let assetsService: any AssetsServiceType
     private var updatingTask: Task<Void, Never>?
 
     @Published private(set) var assets: [Asset] = []
@@ -12,7 +12,7 @@ class CoinsViewModel: ObservableObject {
     @Published var showFetchError = false
     @Published var showUpdateError = false
 
-    init(assetsService: AssetsServiceType = AssetsService()) {
+    init(assetsService: any AssetsServiceType = AssetsService()) {
         self.assetsService = assetsService
     }
 
