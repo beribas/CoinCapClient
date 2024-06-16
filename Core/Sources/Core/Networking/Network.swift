@@ -1,6 +1,6 @@
 import Foundation
 
-protocol Networking {
+protocol Networking: Sendable {
     func send<T: Decodable>(request: URLRequest) async -> Result<T, NetworkError>
 }
 

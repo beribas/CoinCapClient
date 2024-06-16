@@ -2,7 +2,7 @@
 import XCTest
 
 final class AssetsServiceTests: XCTestCase {
-    class NetworkMock: Networking {
+    class NetworkMock: Networking, @unchecked Sendable {
         var receivedRequests: [URLRequest] = []
         var stubbedResult: Decodable?
         var stubbedError: NetworkError?

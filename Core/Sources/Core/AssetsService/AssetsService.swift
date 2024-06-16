@@ -1,6 +1,6 @@
 import Foundation
 
-public protocol AssetsServiceType {
+public protocol AssetsServiceType: Sendable {
     func assets() async -> Result<[Asset], NetworkError>
     func asset(id: String) async -> Result<Asset, NetworkError>
 }
@@ -40,7 +40,7 @@ public struct AssetsService: AssetsServiceType {
     }
 }
 
-public class AssetsServiceMock: AssetsServiceType {
+public final class AssetsServiceMock: AssetsServiceType, @unchecked Sendable {
     public init() {}
 
     public var assetsResult: Result<[Asset], NetworkError> = .success([])
